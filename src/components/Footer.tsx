@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <img
-              src="/logo-placeholder.svg"
+              src="/public/logo.png"
               alt="Logo de la Empresa"
               className="h-8 w-auto mb-4 brightness-0 invert"
             />
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} Nombre de tu Empresa. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Powered by Cesar Baca. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
