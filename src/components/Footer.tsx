@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <img
-              src="/public/logo.png"
+              src="/logo.png"
               alt="Logo de la Empresa"
               className="h-8 w-auto mb-4 brightness-0 invert"
             />
